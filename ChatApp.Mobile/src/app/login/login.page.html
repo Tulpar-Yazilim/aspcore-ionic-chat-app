@@ -1,0 +1,23 @@
+<ion-content padding>
+
+  <div class="signcard animated bounceInDown" text-left>
+    <h2>Giriş Yap</h2>
+    <div class="detailsholder" padding>
+
+      <ion-label stacked>Email</ion-label>
+      <ion-input type="email" [(ngModel)]="postData.email" placeholder="abc@def.com"></ion-input>
+      <br>
+      <ion-label stacked>Şifre</ion-label>
+      <ion-input type="password" [(ngModel)]="postData.password" placeholder="******"></ion-input>
+      <br>
+      <ion-button class="loginbtn" expand="block" shape="round" (click)="login()">GİRİŞ YAP</ion-button>
+    </div>
+
+  </div>
+  <div class="shadowcard animated bounceInUp">
+    <div class="dontholder" text-center>
+      <p>Tulpar Yazılım ve Danışmanlık</p>
+    </div>
+  </div>
+
+</ion-content>

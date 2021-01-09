@@ -1,0 +1,17 @@
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Service.deps.json
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Service.runtimeconfig.json
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Service.runtimeconfig.dev.json
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Service.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Service.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Const.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Data.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Domain.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Data.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Const.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Service\bin\Debug\netcoreapp2.2\ChatApp.Domain.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.csprojAssemblyReference.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.AssemblyInfoInputs.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.AssemblyInfo.cs
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.csproj.CopyComplete
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Service\obj\Debug\netcoreapp2.2\ChatApp.Service.pdb

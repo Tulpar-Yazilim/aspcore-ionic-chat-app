@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatApp.API</name>
+    </assembly>
+    <members>
+        <member name="M:ChatApp.API.BaseController`5.Add(ChatApp.API.StringModel{`0})">
+            <summary>
+            Add
+            </summary>
+            <param name="StringModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.BaseController`5.Update(ChatApp.API.StringModel{`1})">
+            <summary>
+            Update
+            </summary>
+            <param name="StringModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.BaseController`5.Delete(`3)">
+            <summary>
+            Delete
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.BaseController`5.GetById(`3)">
+            <summary>
+            Get Record
+            </summary>
+            <param name="id"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:ChatApp.API.BaseController`5.GetUserId``1">
+            <summary>
+            GetUserId With HttpContext
+            </summary>
+            <typeparam name="Y"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.BaseController`5.GetIdentityUserId``1">
+            <summary>
+            GetIdentityUserId With HttpContext
+            </summary>
+            <typeparam name="Y"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:ChatApp.API.Controllers.AuthController">
+            <summary>
+            Authentication
+            </summary>
+        </member>
+        <member name="M:ChatApp.API.Controllers.AuthController.#ctor(Microsoft.AspNetCore.Identity.UserManager{ChatApp.API.AppIdentityUser},Microsoft.AspNetCore.Identity.SignInManager{ChatApp.API.AppIdentityUser},Microsoft.AspNetCore.Identity.RoleManager{ChatApp.API.AppIdentityRole},Microsoft.Extensions.Configuration.IConfiguration,ChatApp.Service.IUserService)">
+            <summary>
+            Authentication Controller
+            </summary>
+            <param name="userManager"></param>
+            <param name="signInManager"></param>
+            <param name="roleManager"></param>
+            <param name="configuration"></param>
+            <param name="userService"></param>
+        </member>
+        <member name="M:ChatApp.API.Controllers.AuthController.Token(ChatApp.API.StringModel{ChatApp.API.Models.LoginDto})">
+            <summary>
+            User Login
+            </summary>
+            <param name="StringModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ChatApp.API.Controllers.NotificationController">
+            <summary>
+            Notification Controller
+            </summary>
+        </member>
+        <member name="M:ChatApp.API.Controllers.NotificationController.GetList">
+            <summary>
+            Get Notification List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ChatApp.API.Controllers.UserController">
+            <summary>
+            Users
+            </summary>
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.#ctor(Microsoft.AspNetCore.Identity.UserManager{ChatApp.API.AppIdentityUser},Microsoft.AspNetCore.Identity.RoleManager{ChatApp.API.AppIdentityRole},ChatApp.Service.IUserService)">
+            <summary>
+            User Controller
+            </summary>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+            <param name="_service"></param>
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.Register(ChatApp.API.StringModel{ChatApp.API.Models.RegisterDto})">
+            <summary>
+            User Register
+            </summary> 
+            <param name="StringModel"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.Update(ChatApp.API.StringModel{ChatApp.Service.DTOs.UserUpdateDto})">
+            <summary>
+            Update User
+            </summary>
+            <param name="StringModel"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.GetById(System.Guid)">
+            <summary>
+            Get User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.GetList">
+            <summary>
+            Get User List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.Controllers.UserController.GetRoleList">
+            <summary>
+            Get Role List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ChatApp.API.CacheManager">
+            <summary>
+            Cache Manager
+            </summary>
+        </member>
+        <member name="M:ChatApp.API.CacheManager.Set``1(System.Object,``0,System.Int32)">
+            <summary>
+            sets the cache entry T
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="expirationInMinutes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.CacheManager.Contains(System.Object)">
+            <summary>
+            checks for cache entry existence
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.CacheManager.Get``1(System.Object)">
+            <summary>
+            returns cache entry T
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatApp.API.CacheManager.Clear(System.Object)">
+            <summary>
+            clear cache entry
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:ChatApp.API.CacheManager.Reset">
+            <summary>
+            expires cache entries T based on CancellationTokenSource cancel 
+            </summary>
+        </member>
+        <member name="T:ChatApp.API.StringModel`1">
+            <summary>
+            String Model
+            </summary>
+        </member>
+    </members>
+</doc>

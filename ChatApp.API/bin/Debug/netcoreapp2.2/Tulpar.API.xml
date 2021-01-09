@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tulpar.API</name>
+    </assembly>
+    <members>
+        <member name="M:MobilYonetici.API.BaseController`5.Add(`0)">
+            <summary>
+            Add
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.Update(`1)">
+            <summary>
+            Update
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.Delete(`3)">
+            <summary>
+            Delete
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.GetById(`3)">
+            <summary>
+            Get Record
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.GetCompanyId``1">
+            <summary>
+            GetCompanyId With HttpContext
+            </summary>
+            <typeparam name="Y"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.GetUserId``1">
+            <summary>
+            GetUserId With HttpContext
+            </summary>
+            <typeparam name="Y"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.BaseController`5.GetIdentityUserId``1">
+            <summary>
+            GetIdentityUserId With HttpContext
+            </summary>
+            <typeparam name="Y"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.Account.AccountController">
+            <summary>
+            Account Services
+            </summary>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.Action.ActionController">
+            <summary>
+            Action Services
+            </summary>
+        </member>
+        <member name="M:MobilYonetici.API.Controllers.AuthController.Token(MobilYonetici.API.Models.LoginDto)">
+            <summary>
+            User Login
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.Controllers.AuthController.Register(MobilYonetici.API.Models.RegisterDto)">
+            <summary>
+            User Register
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.Brand.BrandController">
+            <summary>
+            Brand Services
+            </summary>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.CompanyController">
+            <summary>
+            Company Services
+            </summary>
+        </member>
+        <member name="M:MobilYonetici.API.Controllers.CompanyController.GetCustomerStatistics">
+            <summary>
+            İşletmeye ait cari sayısı 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.Controllers.CompanyController.GetCriticalStokcs">
+            <summary>
+            Kritik stok miktarına ait ürün listesi.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MobilYonetici.API.Controllers.CompanyController.GetDashboardMonthlySales">
+            <summary>
+            Aylık satış 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.CurrencyController">
+            <summary>
+            Currency Services
+            </summary>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.Meeting.MeetingController">
+            <summary>
+            Brand Services
+            </summary>
+        </member>
+        <member name="T:MobilYonetici.API.Controllers.UserController">
+            <summary>
+            Users
+            </summary>
+        </member>
+    </members>
+</doc>

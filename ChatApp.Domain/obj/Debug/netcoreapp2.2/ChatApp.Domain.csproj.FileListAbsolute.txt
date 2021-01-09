@@ -1,0 +1,8 @@
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\bin\Debug\netcoreapp2.2\ChatApp.Domain.deps.json
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\bin\Debug\netcoreapp2.2\ChatApp.Domain.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\bin\Debug\netcoreapp2.2\ChatApp.Domain.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\obj\Debug\netcoreapp2.2\ChatApp.Domain.AssemblyInfoInputs.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\obj\Debug\netcoreapp2.2\ChatApp.Domain.AssemblyInfo.cs
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\obj\Debug\netcoreapp2.2\ChatApp.Domain.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\obj\Debug\netcoreapp2.2\ChatApp.Domain.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Domain\obj\Debug\netcoreapp2.2\ChatApp.Domain.csprojAssemblyReference.cache

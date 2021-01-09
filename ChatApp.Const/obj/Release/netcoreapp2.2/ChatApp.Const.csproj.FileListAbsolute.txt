@@ -1,0 +1,9 @@
+E:\Bitbucket\tp_chatapp\ChatApp.Const\bin\Release\netcoreapp2.2\ChatApp.Const.deps.json
+E:\Bitbucket\tp_chatapp\ChatApp.Const\bin\Release\netcoreapp2.2\ChatApp.Const.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Const\bin\Release\netcoreapp2.2\ChatApp.Const.pdb
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.csprojAssemblyReference.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.csproj.CoreCompileInputs.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.AssemblyInfoInputs.cache
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.AssemblyInfo.cs
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.dll
+E:\Bitbucket\tp_chatapp\ChatApp.Const\obj\Release\netcoreapp2.2\ChatApp.Const.pdb

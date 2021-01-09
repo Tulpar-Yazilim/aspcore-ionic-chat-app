@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      {{ username }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding-vertical fullscreen>
+  <div id="chat-parent" class="bg-image">
+    <div id="chat-container">
+      <ion-row *ngFor="let conv of conversation; let i = index;" class="full no-padding">
+        <ion-col class="no-padding chat-row" [ngClass]="{ 'reverse': conv.sender}">
+          <div class="avatar-parent">
+            <div class="avatar-border"></div>
+            <img [src]="conv.image" class="avatar">
+          </div>
+          <div [ngClass]="{ 'name-row-parent-right': conv.sender,'name-row-parent-left': !conv.sender}">
+            <div class="no-padding" [ngClass]="{ 'name-row-right': conv.sender,'name-row-left': !conv.sender}">
+              {{user?.username}}
+              <div [ngClass]="{ 'timer-right': conv.sender,'timer-left': !conv.sender}">{{conv.sendTime}}
+                <ion-icon *ngIf="conv.sender && conv.sent" name="checkmark" [color]="conv.read ? 'd3green': 'light'"
+                  class="first-tick"></ion-icon>
+                <ion-icon *ngIf="conv.sender && conv.delivered" name="checkmark"
+                  [color]="conv.read ? 'd3green': 'light'" class="second-tick"></ion-icon>
+              </div>
+              <div [ngClass]="{ 'reverse-arc-right': conv.sender,'reverse-arc-left': !conv.sender}">
+                <div [ngClass]="{ 'reverse-arc-color-right': conv.sender,'reverse-arc-color-left': !conv.sender}"></div>
+              </div>
+            </div>
+            <div class="no-padding" [ngClass]="{ 'message-row-right': conv.sender,'message-row-left': !conv.sender}">
+              <ion-text no-margin class="text">{{conv.text}}</ion-text>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+
+      <ion-list>
+        <ion-item *ngFor="let audio of audioList; index as i;">
+          <p>{{audio.filename}}</p>
+          <button ion-button clear item-end large (click)="playAudio(audio.filename, i)">
+            <ion-icon name="play"></ion-icon>
+          </button>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+</ion-content>
+<ion-footer translucent>
+  <ion-row>
+    <ion-col size="12">
+      <div class="container">
+        <div class="scroll" scrollX="true">
+          <div *ngFor="let item of words" (click)="send(item)">{{item}}</div>
+        </div>
+      </div>
+    </ion-col>
+
+  </ion-row>
+  <ion-row class="input-position">
+    <ion-col size="8">
+      <ion-input class="input restrict" type="text" placeholder="Mesajınızı yazın..." [(ngModel)]="input" padding-start>
+      </ion-input>
+    </ion-col>
+    <ion-col size="2">
+      <ion-button icon-only fill="clear" class="send-button" (click)="send()">
+        <ion-icon color="dark" name="send"></ion-icon>
+      </ion-button>
+    </ion-col>
+    <ion-col size="2">
+      <ion-button icon-only fill="clear" class="sound-button" (click)="startRecord()" *ngIf="!recording">
+        <ion-icon color="dark" name="mic"></ion-icon>
+      </ion-button>
+
+      <ion-button icon-only fill="clear" class="sound-button" (click)="stopRecord()" *ngIf="recording">
+        <ion-icon color="dark" name="mic-off"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-footer>

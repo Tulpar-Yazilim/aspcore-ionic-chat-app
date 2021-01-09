@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Data\\MobilYonetici.Data.csproj": {}
+  },
+  "projects": {
+    "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj",
+        "projectName": "MobilYonetici.Const",
+        "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj",
+        "packagesPath": "C:\\Users\\Tulpar\\.nuget\\packages\\",
+        "outputPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tulpar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Data\\MobilYonetici.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Data\\MobilYonetici.Data.csproj",
+        "projectName": "MobilYonetici.Data",
+        "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Data\\MobilYonetici.Data.csproj",
+        "packagesPath": "C:\\Users\\Tulpar\\.nuget\\packages\\",
+        "outputPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tulpar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj": {
+                "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj"
+              },
+              "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\MobilYonetici.Domain.csproj": {
+                "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\MobilYonetici.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\MobilYonetici.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\MobilYonetici.Domain.csproj",
+        "projectName": "MobilYonetici.Domain",
+        "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\MobilYonetici.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tulpar\\.nuget\\packages\\",
+        "outputPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tulpar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj": {
+                "projectPath": "E:\\Bitbucket\\tp_mobilyonetici_api\\MobilYonetici\\MobilYonetici.Const\\MobilYonetici.Const.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

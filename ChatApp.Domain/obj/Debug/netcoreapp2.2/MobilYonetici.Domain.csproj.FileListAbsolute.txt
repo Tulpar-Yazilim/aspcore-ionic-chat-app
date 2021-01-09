@@ -1,0 +1,12 @@
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\bin\Debug\netcoreapp2.2\MobilYonetici.Domain.deps.json
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\bin\Debug\netcoreapp2.2\MobilYonetici.Domain.dll
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\bin\Debug\netcoreapp2.2\MobilYonetici.Domain.pdb
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\bin\Debug\netcoreapp2.2\MobilYonetici.Const.dll
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\bin\Debug\netcoreapp2.2\MobilYonetici.Const.pdb
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.csprojAssemblyReference.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.csproj.CoreCompileInputs.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.AssemblyInfoInputs.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.AssemblyInfo.cs
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.csproj.CopyComplete
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.dll
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Domain\obj\Debug\netcoreapp2.2\MobilYonetici.Domain.pdb

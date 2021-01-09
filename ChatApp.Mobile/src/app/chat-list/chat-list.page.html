@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Kullanıcılar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let chat of userList" lines="none" (click)="goDetail(chat)">
+      <div class="borderBottomLine"></div>
+      <div class="listSection">
+        <div class="UserimgSection">
+          <ion-avatar class="chatImage" slot="start">
+            <ion-img [src]="chat.image"></ion-img>
+          </ion-avatar>
+        </div>
+        <div class="usernameSection" padding-start padding>
+          <h5>
+            {{chat.name}} {{chat.surname}}
+          </h5>
+          <p class="descText" no-margin no-padding>{{chat.username}}</p>
+          <p class="descText" no-margin no-padding *ngIf="chat.lastMessage">{{chat.lastMessage}}</p>
+        </div>
+      </div>
+      <div slot="end" class="lastSection">
+        <ion-note *ngIf="chat.sendTime"><b>{{chat.sendTime}}</b></ion-note>
+        <ion-badge slot="end" class="userBadge" *ngIf="chat.badge">{{chat.badge}}</ion-badge>
+      </div>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-app>
+  <ion-menu>
+    <ion-header translucent>
+      <ion-toolbar color="dark">
+        <ion-title>Tulpar Chat App</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content fullscreen="true">
+      <div class="content">
+        <ion-list lines="none">
+          <div class="scrollContent">
+            <ion-menu-toggle auto-hide="false">
+              <ion-item>
+                <ion-icon name="exit" slot="start"></ion-icon>
+                <ion-label (click)="logout()">Çıkış Yap</ion-label>
+              </ion-item>
+            </ion-menu-toggle>
+          </div>
+        </ion-list>
+      </div>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

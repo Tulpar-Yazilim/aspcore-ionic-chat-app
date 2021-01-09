@@ -1,0 +1,9 @@
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\bin\Debug\netcoreapp2.2\MobilYonetici.Const.deps.json
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\bin\Debug\netcoreapp2.2\MobilYonetici.Const.dll
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\bin\Debug\netcoreapp2.2\MobilYonetici.Const.pdb
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.csprojAssemblyReference.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.csproj.CoreCompileInputs.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.AssemblyInfoInputs.cache
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.AssemblyInfo.cs
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.dll
+E:\Bitbucket\tp_mobilyonetici_api\MobilYonetici\MobilYonetici.Const\obj\Debug\netcoreapp2.2\MobilYonetici.Const.pdb
